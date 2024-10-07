@@ -1,0 +1,56 @@
+.attribution { font-size: 11px; 
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  /* images */
+  .images{
+    margin:0 12px;
+    border-radius: 10px;
+  }
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  /* code Qr */
+  .bloc{
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+
+    max-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+   }
+   
+   .contenu{
+    text-align: center;
+    font-weight:bolder;
+   }
+  .contenu h3{ 
+    font-size: 30px;   
+    padding: 10px 0;  
+  }
+  .contenu p{
+    color: hsl(216, 15%, 48%);
+    padding: 10px 0;  
+   }
+
+   @media screen and (max-width:500px) {
+    
+   }
